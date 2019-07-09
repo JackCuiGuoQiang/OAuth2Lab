@@ -1,8 +1,5 @@
-访问
-
-
-http://localhost:8010/oauth/authorize?client_id=client&response_type=code
 本工程是基于内存的demo
+
 
 
 通过 GET 请求访问认证服务器获取授权码

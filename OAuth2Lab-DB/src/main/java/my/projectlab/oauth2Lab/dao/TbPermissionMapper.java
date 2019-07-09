@@ -1,6 +1,7 @@
 package my.projectlab.oauth2Lab.dao;
 
-import com.funtl.oauth2.server.domain.TbPermission;
+
+import my.projectlab.oauth2Lab.oauth2.entity.TbPermission;
 import org.apache.ibatis.annotations.Param;
 import tk.mybatis.mapper.MyMapper;
 
