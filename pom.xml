@@ -3,6 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.3.RELEASE</version>
+		<relativePath/>
+	</parent>
+
 
 	<groupId>my.projectlab</groupId>
 	<artifactId>OAuth2Lab</artifactId>
@@ -10,10 +17,9 @@
 	<packaging>pom</packaging>
 
     <modules>
-        <module>spring-boot-samples-dependencies</module>
-        <module>spring-security-oauth2</module>
+		<module>OAuth2Lab-DB-resource</module>
+        <module>OAuth2Lab-memery</module>
+		<module>OAuth2Lab-DB-auth</module>
     </modules>
-
-
 
 </project>
